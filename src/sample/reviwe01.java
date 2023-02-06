@@ -8,7 +8,7 @@ public class reviwe01 {
         int num2 = 10;
         int result;
         result = tax(num1, num2);
-        System.out.println("1500円の商品の税込価格は" + (num1 + result) + "（消費税は" + result + "円）です。");
+        System.out.println(num1 + "円の商品の税込価格は" + (num1 + result) + "（消費税は" + result + "円）です。");
         }
 
     // 下記メソッドで消費税額を計算
